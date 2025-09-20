@@ -4,59 +4,58 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sunshine Enroute Transportation</title>
-  <link rel="stylesheet" href="css/styles.css?v=3" />
+  <link rel="stylesheet" href="css/styles.css?v=4" />
 </head>
 <body>
   <!-- Header -->
-  <header>
-    <img src="images/logo.jpeg" alt="Sunshine Enroute Logo" class="logo" />
-    <h1>Sunshine Enroute Transportation</h1>
-    <p>Your trusted ride, safe and on time</p>
+  <header class="site-header">
+    <div class="logo-title">
+      <img src="images/logo.jpeg" alt="Sunshine Enroute Logo" class="logo" />
+      <h1>Sunshine Enroute Transportation</h1>
+    </div>
     <nav>
       <a href="index.html">English</a> | 
       <a href="index_es.html">Español</a>
     </nav>
   </header>
 
-  <!-- Hero / Contact -->
-  <section class="hero">
-    <div class="hero-content">
-      <div class="hero-text">
-        <h2>Book Your Ride Today</h2>
-        <p>Fast, friendly, and reliable transportation service.</p>
-        <div class="phones">
-          <p>📞 Call us now:</p>
-          <ul>
-            <li><a href="tel:+12394650913">+1 (239) 465-0913 Yurien</a></li>
-            <li><a href="tel:+12394124177">+1 (239) 412-4177 Damián</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="hero-image">
-        <img src="images/vansunset.jpg" alt="Transportation Van" />
+  <!-- Hero with background -->
+  <section class="hero" style="background-image: url('images/vansunset.jpg');">
+    <div class="overlay">
+      <h2>Your Trusted Ride</h2>
+      <p>Safe, reliable, and always on time.</p>
+      <div class="phones">
+        <p>📞 Call us now:</p>
+        <ul>
+          <li><a href="tel:+12394650913">+1 (239) 465-0913 Yurien</a></li>
+          <li><a href="tel:+12394124177">+1 (239) 412-4177 Damián</a></li>
+        </ul>
       </div>
     </div>
   </section>
 
   <!-- About -->
   <section class="about">
-    <h2>About Us</h2>
-    <p>
-      Sunshine Enroute Transportation provides comfortable and affordable rides 
-      for local and long-distance travel. Our professional drivers are committed 
-      to your safety and punctuality.
-    </p>
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        Sunshine Enroute Transportation provides comfortable and affordable rides 
+        for local and long-distance travel. Our professional drivers are committed 
+        to your safety and punctuality.
+      </p>
+    </div>
   </section>
 
-  <!-- Services -->
+  <!-- Services as cards -->
   <section class="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>🚌 City-to-city transportation</li>
-      <li>🚐 Airport drop-off and pick-up</li>
-      <li>👨‍👩‍👧 Group and family trips</li>
-    </ul>
-    <img src="images/map.jpg" alt="Map with destinations" class="services-img" />
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="card">🚌 City-to-city transportation</div>
+        <div class="card">🚐 Airport drop-off and pick-up</div>
+        <div class="card">👨‍👩‍👧 Group and family trips</div>
+      </div>
+    </div>
   </section>
 
   <!-- Footer -->

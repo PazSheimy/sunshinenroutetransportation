@@ -1,70 +1,87 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  background: #fffbe6; /* light yellow background */
-}
-
-header {
+/* Modern header */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: #000;
-  color: #ffd700; /* gold/yellow */
-  text-align: center;
-  padding: 20px;
+  color: #ffd700;
+  padding: 15px 20px;
 }
-
-header h1 {
-  margin: 0;
-  font-size: 2rem;
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-
-nav a {
+.logo {
+  max-height: 50px;
+  border-radius: 5px;
+}
+.site-header nav a {
   color: #ffd700;
   text-decoration: none;
   margin: 0 8px;
+  font-weight: bold;
 }
 
+/* Hero with background */
 .hero {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffd700;
+  text-align: center;
+  padding: 30px;
+  border-radius: 8px;
+}
+.hero h2 {
+  margin: 0 0 10px;
+  font-size: 2rem;
+}
+
+/* Sections */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+.about, .services {
+  text-align: center;
+}
+
+/* Service cards */
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.service-cards .card {
+  flex: 1 1 200px;
   background: #ffd700;
   color: #000;
-  text-align: center;
-  padding: 30px 15px;
-}
-
-.hero h2 {
-  margin-bottom: 10px;
-}
-
-.phones ul {
-  list-style: none;
-  padding: 0;
-}
-
-.phones li {
-  margin: 5px 0;
-  font-size: 1.2rem;
-}
-
-.services, .about {
   padding: 20px;
-  max-width: 800px;
-  margin: auto;
-  text-align: center;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
 }
 
-.services ul {
-  list-style: none;
-  padding: 0;
-}
-
-.services li {
-  margin: 8px 0;
-}
-
+/* Footer */
 footer {
   background: #000;
   color: #ffd700;
   text-align: center;
-  padding: 10px;
-  margin-top: 20px;
+  padding: 15px;
+  margin-top: 30px;
+}
+footer a {
+  color: #ffd700;
+  font-weight: bold;
 }
