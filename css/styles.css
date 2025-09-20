@@ -88,6 +88,37 @@
   box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
 }
 
+/* Destinations section */
+.destinations {
+  background: #fff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.destinations h2 {
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.city-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 15px;
+  max-width: 400px;
+  text-align: left;
+}
+
+.city-list li {
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
+
+.note {
+  font-weight: bold;
+  color: #333;
+}
+
+
 /* Footer */
 footer {
   background: #000;
