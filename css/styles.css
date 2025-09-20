@@ -45,6 +45,21 @@
   font-size: 2rem;
 }
 
+.hero .phones a {
+  display: inline-block;
+  background: #ffd700;
+  color: #000;
+  font-weight: bold;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.hero .phones a:hover {
+  background: #e6c200;  /* darker yellow on hover */
+}
+
 /* Sections */
 .container {
   max-width: 900px;
