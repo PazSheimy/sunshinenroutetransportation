@@ -4,58 +4,78 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sunshine Enroute Transportation</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/styles.css?v=5" />
 </head>
 <body>
   <!-- Encabezado -->
-  <header>
-    <h1>🚐 Sunshine En Route Transportation</h1>
-    <p>Donde y cuando nos necesite</p>
+  <header class="site-header">
+    <div class="logo-title">
+      <img src="images/logo.jpeg" alt="Logo Sunshine Enroute" class="logo" />
+      <h1>Sunshine Enroute Transportation</h1>
+    </div>
     <nav>
       <a href="index.html">English</a> | 
       <a href="index_es.html">Español</a>
     </nav>
   </header>
 
-  <!-- Hero / Contacto -->
-  <section class="hero">
-    <h2>Necesita transporte? Aquí estamos</h2>
-    <p>Servicio puerta a puerta, usted disfrute y confíe en nosotros para su destino.</p>
-    <div class="phones">
-      <p>📞 Llámenos ahora:</p>
-      <ul>
-        <li><a href="tel:+12394650913">+1 (239) 465-0913 Yurien</a></li>
-        <li><a href="tel:+12394124177">+1 (239) 412-4177 Damián</a></li>
-      </ul>
+  <!-- Hero con fondo -->
+  <section class="hero" style="background-image: url('images/vansunset.jpg');">
+    <div class="overlay">
+      <h2>Su transporte de confianza</h2>
+      <p>Seguro, puntual y siempre a tiempo.</p>
+      <div class="phones">
+        <p>📞 Llámenos ahora:</p>
+        <ul>
+          <li><a href="tel:+12394650913">+1 (239) 465-0913 Yurien</a></li>
+          <li><a href="tel:+12394124177">+1 (239) 412-4177 Damián</a></li>
+        </ul>
+      </div>
     </div>
   </section>
 
-  <!-- Servicios -->
-  <section class="services">
-    <h2>Destinos</h2>
-    <ul>
-      <li>🚌 Miami</li>
-      <li>🚌 Naples</li>
-      <li>🚌 Tampa</li>
-      <li>🚌 Orlando</li>
-      <li>🚌 Los Cayos</li>
-    </ul>
-    <p>
-      Viaje ida y regreso, ¡llame con tiempo y garantice su asiento!
-    </p>
+  <!-- Sobre nosotros -->
+  <section class="about">
+    <div class="container">
+      <h2>Quiénes Somos</h2>
+      <p>
+        Sunshine Enroute Transportation le ofrece viajes cómodos y accesibles 
+        tanto locales como de larga distancia. Nuestros conductores profesionales 
+        están comprometidos con su seguridad y puntualidad.
+      </p>
+    </div>
   </section>
 
-  <!-- Mensaje -->
-  <section class="about">
-    <p>
-      Transportación desde su casa a su destino con seguridad y puntualidad.  
-      En route con mucho Amor 💛
-    </p>
+  <!-- Servicios como tarjetas -->
+  <section class="services">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="service-cards">
+        <div class="card">🚌 Transporte de ciudad a ciudad</div>
+        <div class="card">🚐 Traslados al aeropuerto</div>
+        <div class="card">👨‍👩‍👧 Viajes familiares y en grupo</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destinos -->
+  <section class="destinations">
+    <div class="container">
+      <h2>Destinos</h2>
+      <div class="destination-cards">
+        <div class="card">🚌 Miami</div>
+        <div class="card">🚌 Naples</div>
+        <div class="card">🚌 Tampa</div>
+        <div class="card">🚌 Orlando</div>
+        <div class="card">🚌 Los Cayos</div>
+      </div>
+      <p class="note">Viaje ida y regreso — ¡reserve con tiempo para garantizar su asiento!</p>
+    </div>
   </section>
 
   <!-- Pie de página -->
   <footer>
-    <p>&copy; 2025 Sunshine En Route Transportation |
+    <p>&copy; 2025 Sunshine Enroute Transportation | 
       <a href="index.html">View in English</a>
     </p>
   </footer>
